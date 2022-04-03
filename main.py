@@ -53,7 +53,7 @@ for line in program:
       elif lst[i] == 'S':
         speed = ': ' + color.CYAN + f'Spindle Speed: ' + color.END + f'{lst[i+1].strip()} RPM'
       elif lst[i] == 'F':
-        feed = ': ' + color.BLUE + 'Feed Rate: ' + color.END + f'{lst[i+1].strip()} IPS'
+        feed = ': ' + color.BLUE + 'Feed Rate: ' + color.END + f'{lst[i+1].strip()} IN/REV'
       elif lst[i] == 'T':
         tool = ': ' + color.UNDERLINE + f'Tool/Offset #: {lst[i+1].strip()}' + color.END 
       elif lst[i] == 'M':
