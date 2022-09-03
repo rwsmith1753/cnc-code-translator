@@ -131,8 +131,4 @@ def make_list():
 
 gcode_list = make_list()
 
-  #return color.YELLOW + eval(g) + color.END
-
-# if __name__ == '__main__':
-#   get_code(g)
   
