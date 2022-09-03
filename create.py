@@ -1,7 +1,5 @@
 import tkinter as tk
 from tkinter.filedialog import *
-#from gcodes import get_gcode
-#from mcodes import get_mcode
 import gcodes2
 import mcodes2
 
